@@ -1,0 +1,266 @@
+﻿
+<!DOCTYPE html>
+<html lang="ja">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <title>クローラーについて - gooウェブ検索ガイド</title>
+    <meta name="description" content="gooウェブ検索ガイドは、NTTレゾナントが運営する安心・安全のポータルサイトgooのウェブ検索の機能や使い方を紹介するページです。">
+    <meta name="keywords" content="gooウェブ検索,ウェブ検索,検索,ガイド,使い方,howto,goo">
+
+    <meta property="og:site_name" content="gooウェブ検索ガイド">
+    <meta property="og:title" content="gooウェブ検索ガイド">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="gooウェブ検索ガイドは、NTTレゾナントが運営する安心・安全のポータルサイトgooのウェブ検索の機能や使い方を紹介するページです。">
+    <meta property="og:url" content="http://search.goo.ne.jp/guide/">
+    <meta property="og:image" content="http://u.xgoo.jp/img/sns/search.png">
+    <meta property="og:image:secure_url" content="http://u.xgoo.jp/img/sns/search.png">
+    <meta property="og:image:width" content="600">
+    <meta property="og:image:height" content="600">
+
+    <link rel="stylesheet" href="..//css/style.css">
+    <script type="text/javascript" src="..//js/pageLayout.js"></script>
+    <script defer src="..//js/all.js"></script> 
+    
+</head>
+
+
+<body class="l-crawler">
+    <div class="l-header">
+	<h1 class="l-header-title"><img src="../img/logo_goo.svg" alt="goo" width="80" height="auto"><span>検索ガイド</span></h1>
+</div>
+
+    <h2 class="l-second-title">クローラーとは</h2>
+    <p class="l-crawler-txt">Webクローラとは、インターネット上のWebサーバからWebページを網羅的に収集し、検索エンジンのデータベースに反映させるためのシステムです。</p>
+
+    <ul class="l-crawler-nav">
+		<li><a href="#l-ichiro">ichiro について</a></li>
+		<li><a href="#l-goo_vsearch">goo_vsearch について</a></li>
+		<li><a href="#l-gooblogsearch">gooblogsearch について</a></li>
+		<!-- <li><a href="#l-mogimogi">mogimogi について</a></li> -->
+	</ul>
+
+    <div class="l-crawler-card" id="l-ichiro">
+		<h3 class="l-crawler-card-title">ichiroについて</h3>
+
+		<div class="l-crawler-card-dis">
+			
+
+			<p>「ichiro」は、NTTレゾナント株式会社が運用しているWebクローラの名称です。</p>
+
+
+			<h4>ichiro が収集した Webページは下記サイトでの検索サービスに使用させて頂きます。</h4>
+			<ul class="l-crawler-card-list">
+				<li>search.goo.ne.jp/　（goo画像・動画検索）</li>
+			</ul>
+			<p class="c-mbLong">ichiroは、画像、動画の検索サービスですので、HTMLページだけでなく、画像、動画も収集させて頂きます。<br/>また、システムの研究開発のための収集をさせて頂く場合もあります。</p>
+
+
+			<h4>ichiro は、皆様の Webサーバに負担をかけないために、以下のルールに従います。</h4>
+			<section>
+			<h5>1.robots.txt に従います</h5>
+			<p>認識するのは、”User-agent:”、 “Disallow:”、 “Allow:” です。<br/>
+			robots.txt の書き方については、以下URLをご参照ください。</p>
+			<ul class="l-crawler-card-list"><li><a href="www.robotstxt.org/orig.html#robotstxt">www.robotstxt.org/orig.html#robotstxt</a></li></ul>
+			</section>
+
+			<section>
+			<h5>2. META TAG による収集制限に従います</h5>
+			<p>認識するのは、”NOINDEX”、”NOFOLLOW”、 “NOARCHIVE”、 “NOIMAGEINDEX”、 “NONE”、 “FOLLOW”、 “INDEX”、 “ALL”、 “NOSERVE”、 “SERVE”、 “ARCHIVE”、 “NOIMAGECLICK”です。 　META TAG の書き方については、以下URLをご参照ください。</p>
+			<ul class="l-crawler-card-list"><li><a href="www.robotstxt.org/meta.html">www.robotstxt.org/meta.html</a></li></ul>
+			</section>
+
+			<section>
+			<h5>3. 同一の Webサーバに対しては、一度に 1ページしか Webページを収集しません</h5>
+			<p>これは、複数のドメイン名を持つ Webサーバに対しても同様です。ある Webサーバが、A と B という二つのドメイン名を持っていても、A と B に同時に接続する事は致しません。</p>
+			</section>
+
+			<section>
+			<h5>4. 適切な間隔で収集します</h5>
+			<p>収集間隔は状況によって変更されますが、動画等のファイルを収集した後は、長めに間隔をあける等の制御を行っています。</p>
+			</section>
+
+		</div>
+
+	</div>
+
+
+
+	<div class="l-crawler-card" id="l-goo_vsearch">
+		<h3 class="l-crawler-card-title">goo_vsearchについて</h3>
+
+		<div class="l-crawler-card-dis">
+			
+
+			<p>「goo_vsearch」は、NTTレゾナント株式会社が運用しているWebクローラの名称です。</p>
+
+
+			<h4>goo_vsearch が収集した Webページは下記サイトでの検索サービスに使用させて頂きます。</h4>
+			<ul class="l-crawler-card-list">
+				<li>search.goo.ne.jp/　（goo画像・動画検索）</li>
+				<li>bsearch.mobile.goo.ne.jp/　（モバイルgoo画像検索）</li>
+			</ul>
+			<p class="c-mbLong">また、システムの研究開発のための収集をさせて頂く場合もあります。</p>
+
+
+			<h4>goo_vsearch は、皆様の Webサーバに負担をかけないために、以下のルールに従います。</h4>
+			<section>
+				<h5>1.robots.txt に従います</h5>
+				<p>認識するのは、”User-agent:”、 “Disallow:”、 “Allow:” です。<br/>
+				robots.txt の書き方については、以下URLをご参照ください。</p>
+				<ul><li><a href="www.robotstxt.org/orig.html#robotstxt">www.robotstxt.org/orig.html#robotstxt</a></li></ul>
+			</section>
+
+			<section>
+				<h5>2. META TAG による収集制限に従います</h5>
+				<p>認識するのは、”NOFOLLOW”、 “NOINDEX”　です。META TAG の書き方については、以下URLをご参照ください。</p>
+				<ul><li><a href="www.robotstxt.org/meta.html">www.robotstxt.org/meta.html</a></li></ul>
+			</section>
+
+			<section>
+				<h5>3. 同一の Webサーバに対しては、一度に 1ページしか Webページを収集しません</h5>
+				<p>これは、複数のドメイン名を持つ Webサーバに対しても同様です。ある Webサーバが、A と B という二つのドメイン名を持っていても、A と B に同時に接続する事は致しません。</p>
+				</section>
+
+				<section>
+				<h5>4. 適切な間隔で収集します</h5>
+				<p>収集間隔は状況によって変更されますが、webページを収集した後は、一定間隔をあける等の制御を行っています。<br/>※「goo_vsearch」に関するお問い合わせの際は、件名または本文に「goo_vsearchについて」とお書き添えください。</p>
+			</section>
+
+		</div>
+
+	</div>
+
+
+
+	<div class="l-crawler-card" id="l-gooblogsearch">
+		<h3 class="l-crawler-card-title">gooblogsearchについて</h3>
+
+		<div class="l-crawler-card-dis">
+
+			<h4>「gooblogsearch」はNTTレゾナント株式会社が運用するブログ検索用Webクローラのうちのひとつです。</h4>
+			<section>
+				<h5>1. ユーザーエージェント</h5>
+				<p>gooblogsearch/[バージョン]</p>
+				<p>例：gooblogsearch/2.0</p>
+			</section>
+
+			<section>
+				<h5>2. robots.txt に従います</h5>
+				<p>認識するのは、”User-agent:”、 “Disallow:”です。</p>
+			</section>
+
+			<section>
+				<h5>3. META TAG による収集制限に従います</h5>
+				<p>認識するのは、”NOINDEX”です。</p>
+			</section>
+
+		</div>
+
+	</div>
+
+<!--
+	<div class="l-crawler-card" id="l-mogimogi">
+		<h3 class="l-crawler-card-title">mogimogiについて</h3>
+
+		<div class="l-crawler-card-dis">
+
+			<h4>「mogimogi」はNTTレゾナント株式会社が運用するニュース検索用Webクローラのうちのひとつです。</h4>
+			<section>
+				<h5>1. ユーザーエージェント</h5>
+				<p>mogimogi/[バージョン]</p>
+				<p>例：mogimogi/2.0</p>
+			</section>
+
+			<section>
+				<h5>mogimogi が収集した Webページは下記サイトでの検索サービスに使用させて頂きます。</h5>
+				<ul><li>search.goo.ne.jp/　（gooニュース検索）</li></ul>
+				<p>また、システムの研究開発のための収集をさせて頂く場合もあります。</p>
+			</section>
+
+			<section>
+				<h5>3. META TAG による収集制限に従います</h5>
+				<p>認識するのは、”NOINDEX”です。</p>
+			</section>
+
+
+			<h4>goo_vsearch は、皆様の Webサーバに負担をかけないために、以下のルールに従います。</h4>
+			<section>
+				<h5>1.robots.txt に従います</h5>
+				<p>認識するのは、”User-agent:”、 “Disallow:”、 “Allow:” です。<br/>
+				robots.txt の書き方については、以下URLをご参照ください。</p>
+				<ul><li><a href="www.robotstxt.org/orig.html#robotstxt">www.robotstxt.org/orig.html#robotstxt</a></li></ul>
+			</section>
+
+			<section>
+				<h5>2. META TAG による収集制限に従います</h5>
+				<p>認識するのは、”NOFOLLOW”、 “NOINDEX”　です。META TAG の書き方については、以下URLをご参照ください。</p>
+				<ul><li><a href="www.robotstxt.org/meta.html">www.robotstxt.org/meta.html</a></li></ul>
+			</section>
+
+			<section>
+				<h5>3. 同一の Webサーバに対しては、一度に 1ページしか Webページを収集しません</h5>
+				<p>これは、複数のドメイン名を持つ Webサーバに対しても同様です。ある Webサーバが、A と B という二つのドメイン名を持っていても、A と B に同時に接続する事は致しません。</p>
+				</section>
+
+				<section>
+				<h5>4. 適切な間隔で収集します</h5>
+				<p>収集間隔は状況によって変更されますが、webページを収集した後は、一定間隔をあける等の制御を行っています。<br/>※「mogimogi」に関するお問い合わせの際は、件名または本文に「mogimogiについて」とお書き添えください。</p>
+			</section>
+
+		</div>
+
+	</div>
+
+-->
+
+
+</body>
+
+
+
+
+
+<ul class="">
+        <li><a href="../index.html" class="l-bkBtn c-dwBtn">BACK PAGE</a></li>
+    </ul>
+
+
+    <footer role="contentinfo"><div class="l-footer">
+        <div class="l-footer-in">
+            <div class="l-footer-sv">
+                <dl class="l-footer-sv-rel">
+                    <dt>関連サービス</dt>
+                    <dd>
+                        <ul>
+                            <li><a href="https://search.goo.ne.jp/">gooウェブ検索</a></li>
+                            <li><a href="https://dictionary.goo.ne.jp/">辞書</a></li>
+                            <li><a href="https://news.goo.ne.jp/">ニュース</a></li>
+                            <li><a href="https://oshiete.goo.ne.jp/">教えて!goo</a></li>
+                            <li><a href="https://blog.goo.ne.jp/">Blog</a></li>
+                            <li><a href="https://tvtopic.goo.ne.jp/">テレビ番組</a></li>
+                            <li><a href="https://nttxstore.jp/">NTT-X Store</a></li>
+                        </ul>
+                    </dd>
+                </dl>
+            </div>
+            <div class="l-footer-link">
+                <ul>
+                    <li><a href="http://www.goo.ne.jp/">gooトップ</a></li>
+                    <li><a href="http://www.goo.ne.jp/sitemap/">サイトマップ</a></li>
+                    <li><a href="http://www.goo.ne.jp/set/">スタートページに設定</a></li>
+                    <li><a href="http://www.goo.ne.jp/rss/">RSS</a></li>
+                    <li><a href="http://advertising.nttr.co.jp/adinfo/">広告掲載</a></li>
+                    <li><a href="http://help.goo.ne.jp/office/agreement.html">免責事項</a></li>
+                    <li><a href="http://help.goo.ne.jp/help/article/709/">プライバシーポリシー</a></li>
+                    <li><a href="http://help.goo.ne.jp/">ヘルプ</a></li>
+                    <li><a href="http://www.nttr.co.jp/">企業情報</a></li>
+                </ul>
+            </div>
+            <p class="l-copyright"><small><span class="small">©NTT Resonant Inc.</span></small></p>
+        <!-- footer-in --></div>
+    <!-- footer --></div></footer>
+</body>
+</html>
