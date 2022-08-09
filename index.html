@@ -2,6 +2,15 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-44407116-59"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-44407116-59');
+    </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -14,23 +23,25 @@
     <meta property="og:title" content="gooウェブ検索ガイド">
     <meta property="og:type" content="website">
     <meta property="og:description" content="gooウェブ検索ガイドは、NTTレゾナントが運営する安心・安全のポータルサイトgooのウェブ検索の機能や使い方を紹介するページです。">
-    <meta property="og:url" content="http://search.goo.ne.jp/guide/">
-    <meta property="og:image" content="http://u.xgoo.jp/img/sns/search.png">
-    <meta property="og:image:secure_url" content="http://u.xgoo.jp/img/sns/search.png">
+    <meta property="og:url" content="https://guide.search.goo.ne.jp/">
+    <meta property="og:image" content="https://u.xgoo.jp/img/sns/search.png">
+    <meta property="og:image:secure_url" content="https://u.xgoo.jp/img/sns/search.png">
     <meta property="og:image:width" content="600">
     <meta property="og:image:height" content="600">
 
-    <link rel="stylesheet" href="css/style.css">
-    <script type="text/javascript" src="js/pageLayout.js"></script>
-    <script defer src="js/all.js"></script>
-    <script type="text/javascript">const isLogined = true;</script></head>
+    <link rel="stylesheet" href=".//css/style.css">
+    <script src=".//js/pageLayout.js"></script>
+    <script defer src=".//js/all.js"></script>
+    <script>const isLogined = false;</script>    <link rel="icon" href="//u.xgoo.jp/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="//u.xgoo.jp/img/sns/search.png">
+</head>
 
 
 
 
 <body class="l-topPg" id="pgTop">
 
-    <section class="c-sec">
+    <div class="c-sec">
         <div class="l-sec1">
             <div class="c-imgs">
                 <span class="c-imgs-cell"><img src="img/img_sec1_1.svg" alt=""></span>
@@ -39,7 +50,7 @@
             </div>
             <div class="c-sec-txtBtnW">
                 <div class="c-txt">
-                    <p><img src="img/logo_goo.svg" alt="goo" width="50" height="auto">web検索は、webページを見つけるだけではない、多彩な情報で、あなたの「知りたい」をサポート致します。</p>
+                    <p><img src="img/logo_goo.svg" alt="goo" width="50">web検索は、webページを見つけるだけではない、多彩な情報で、あなたの「知りたい」をサポート致します。</p>
                 </div>
 
                 <div class="c-btn">
@@ -49,10 +60,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
 
-    <section class="c-sec">
+    <div class="c-sec">
         <div class="l-sec2">
             <div class="c-imgs">
                 <span class="c-imgs-cell"><img src="img/img_sec2_1.svg" alt=""></span>
@@ -65,7 +76,7 @@
             </div>
             <div class="c-sec-txtBtnW">
                 <div class="c-txt">
-                    <p>他にはない答えも、<img src="img/logo_goo.svg" alt="goo" width="50" height="auto">だけのクローラーでご提供</p>
+                    <p>他にはない答えも、<img src="img/logo_goo.svg" alt="goo" width="50">だけのクローラーでご提供</p>
                 </div>
 
                 <div class="c-btn">
@@ -75,9 +86,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
-    <section class="c-sec">
+    <div class="c-sec">
         <div class="l-sec3">
             <div class="c-imgs">
                 <span class="c-imgs-cell"><img src="img/img_sec3_1.svg" alt=""></span>
@@ -87,7 +98,7 @@
             </div>
             <div class="c-sec-txtBtnW">
                 <div class="c-txt">
-                    <p>ログインすることで、<img src="img/logo_goo.svg" alt="goo" width="50" height="auto">はもっとfitする。</p>
+                    <p>ログインすることで、<img src="img/logo_goo.svg" alt="goo" width="50">はもっとfitする。</p>
                 </div>
 
                 <div class="c-btn">
@@ -97,7 +108,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
 <!--
     <section class="c-sec">
@@ -135,12 +146,12 @@
     </section>
 -->
 
-    <section class="c-sec">
+    <div class="c-sec">
         <div class="l-sec5">
             <div class="l-sec5-imgBox">
-                <input type="checkbox" href="#" class="l-sec5-imgBox-open" name="l-sec5-imgBox-open" id="l-sec5-imgBox-open"/>
+                <input type="checkbox" class="l-sec5-imgBox-open" name="l-sec5-imgBox-open" id="l-sec5-imgBox-open"/>
                 <label class="l-sec5-imgBox-open-button" for="l-sec5-imgBox-open">
-                    <span><img src="img/ico-question.svg" width="30" height="auto"></span>
+                    <span><img src="img/ico-question.svg" width="30" alt=""></span>
                 </label>
 
                 <a href="#" class="l-sec5-imgBox-cell"><img src="img/img_sec5_1.svg" alt=""><img src="img/img_sec5_2.svg" alt=""></a>
@@ -162,12 +173,12 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
 
-    <section>
+    <div>
         <div class="l-sec6">
-            <p class="c-txt">是非、<img src="img/logo_goo.svg" alt="goo" width="50" height="auto">検索をお試しください。</p>
+            <p class="c-txt">是非、<img src="img/logo_goo.svg" alt="goo" width="50">検索をお試しください。</p>
 
             <div class="c-searchBox">
                 <form role="search" id="form-searchBox">
@@ -176,7 +187,7 @@
                 </form>
             </div>
         </div>
-    </section>
+    </div>
 
 
 
@@ -190,7 +201,7 @@
         <ul class="l-sideSearch-minBtn"><li><a href='#'><i class="fas fa-search"></i></a></li></ul>
 
         <div class="l-sideSearch-box">
-            <img src="img/logo_goo.svg" alt="goo" width="60" height="auto">
+            <img src="img/logo_goo.svg" alt="goo" width="60">
             <ul class="l-sideSearch-closeBtn"><li><a href='#'><i class="fas fa-times"></i></a></li></ul>
             <form role="search" id="searchBoxFix">
                 <input id="mainInputBtm_side" type="text" value="" placeholder="">
